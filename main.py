@@ -2,7 +2,7 @@
 #May, 5 2020
 #(Assignment #4)
 
-#<!--First Part: The Beggining-->
+#<!--First Part: The Setup-->
 #This is the title which is just for aesthetic purposes
 intro = "---Welcome to Guess That Animal---\n" + "_" * 35
 print(intro)
@@ -31,6 +31,8 @@ def check(response):
   elif response.lower() != answer.lower():
     return "incorrect"
 
+
+#<!--Second Part: Looping through Questiions-->
 i = 0
 while i <= chances:
   #These varibales extract the current question and answer from the array
@@ -77,3 +79,4 @@ if isCompleted == True:
   #If the iser has completed all questions than the for loop will break out to here where this message will be displayed
   print(f"\n\n[Great Job, you answered all questions correctly]\n[You scored {score} points]")
 
+#<!--Program Complete-->
