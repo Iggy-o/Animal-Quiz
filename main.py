@@ -2,7 +2,7 @@
 #May, 5 2020
 #Youtube: https://www.youtube.com/channel/UCud4cJjtCjEwKpynPz-nNaQ?
 #Github: https://github.com/Iggy-o
-#Preview: https://repl.it/@IghoiseO/Text-Waves
+#Preview: https://repl.it/@IghoiseO/Animal-Quiz#main.py
 
 #<!--First Part: The Setup-->
 #This is the title which is just for aesthetic purposes
