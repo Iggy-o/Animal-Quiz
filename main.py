@@ -19,9 +19,13 @@ questions_array = [["This one's easy, what is the tallest animal in the world", 
                    ["what is the fastest animal on planet earth", "Cheetah"], 
                    ["What is the slowest animal ever recorded", "Sloth"],
                    ["What is the biggest animal in the sea", "Whale"],
-                   ["What animal lives in the North Pole", "Polar Bear"],
-                   ["Which animal has 8 legs", "Spider"],
-                   ["Now this one is hard, what animal is the most closely related to humans", "Chimpanzee"],
+                   ["Which animal lives in the North Pole", "Polar Bear"],
+                   ["What animal is the most closely related to humans", "Chimpanzee"],
+                   ["The only bird that can hover is known as what", "Hummingbird"],
+                   ["Which flying animal uses echolocation", "Bat"],
+                   ["What animal has the biggest ears", "Elephant"],
+                   ["What animal transmitted the Black Death", "Rat"],
+                   ["What insect causes Malaria", "Musquito"],
                    ["end"]
                   ]
 
@@ -41,7 +45,7 @@ while i <= chances:
   question = questions_array[question_number][0]
   answer = questions_array[question_number][1]
   #The variables above are formatted and displayed to the user 
-  response_text = f"\nQuestion {question_number + 1}: {question} =>" 
+  response_text = f"\nQuestion {question_number + 1}: {question}? =>" 
   response = str(input(response_text))
   #This variable takes the user response and calls the check function. 
   #The result from the check function (either correct or incorrect) is used to determine how to continue below
