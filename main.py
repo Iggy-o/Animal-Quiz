@@ -1,6 +1,5 @@
 #Ighoise Odigie
 #May, 5 2020
-#(Assignment #4)
 
 #<!--First Part: The Setup-->
 #This is the title which is just for aesthetic purposes
