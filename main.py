@@ -45,7 +45,7 @@ while i <= chances:
   question = questions_array[question_number][0]
   answer = questions_array[question_number][1]
   #The variables above are formatted and displayed to the user 
-  response_text = f"\nQuestion {question_number + 1}: {question}? =>" 
+  response_text = f"\nQuestion {question_number + 1}: {question}? => " 
   response = str(input(response_text))
   #This variable takes the user response and calls the check function. 
   #The result from the check function (either correct or incorrect) is used to determine how to continue below
