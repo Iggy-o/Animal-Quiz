@@ -25,7 +25,7 @@ questions_array = [["This one's easy, what is the tallest animal in the world", 
                    ["Which flying animal uses echolocation", "Bat"],
                    ["What animal has the biggest ears", "Elephant"],
                    ["What animal transmitted the Black Death", "Rat"],
-                   ["What insect causes Malaria", "Musquito"],
+                   ["What insect causes Malaria", "Mosquito"],
                    ["end"]
                   ]
 
